@@ -37,11 +37,6 @@ p {
   align-items: center;
   margin-top: 24px;
 }
-.footer {
-  color: #111111;
-}
-
-/* Navigation */
 
 .nav-links {
   font-size: 14px;
@@ -64,6 +59,12 @@ p {
   font-weight: 300;
   margin: 0 12px;
   text-decoration: none;
+}
+
+/* Footer */
+
+.footer {
+  color: #111111;
 }
 
 /* Content */
