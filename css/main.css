@@ -5,6 +5,12 @@
   color: #111111; /* Цвет основного текста */
 }
 
+.body-container {
+  width: 45%;
+  margin: 0 auto;
+}
+
+/* Fonts */
 h1 {
   font-style: normal;
   font-weight: 700;
@@ -12,6 +18,14 @@ h1 {
   line-height: 65px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
 }
 
 p {
@@ -24,9 +38,12 @@ p {
   margin: 0px;
 }
 
-.body-container {
-  width: 45%;
-  margin: 0 auto;
+.footer-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
 }
 
 /* Header */
@@ -64,7 +81,20 @@ p {
 /* Footer */
 
 .footer {
-  color: #111111;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 24px;
+  outline: 2px dashed #ccc;
+}
+
+.nav-footer {
+  display: inline-block;
+}
+
+.nav-link-footer {
+  margin: 0 6px;
+  text-decoration: none;
 }
 
 /* Content */
