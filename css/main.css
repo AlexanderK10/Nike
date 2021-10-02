@@ -1,0 +1,134 @@
+/* Main settings */
+* {
+  font-family: "Oswald", sans-serif; /* Семейство шрифтов */
+  background-color: #ffffff; /* Цвет фона веб-страницы */
+  color: #111111; /* Цвет основного текста */
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 65px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin: 0px;
+}
+
+.body-container {
+  width: 45%;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+.footer {
+  color: #111111;
+}
+
+/* Navigation */
+
+.nav-links {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.nav-bold {
+  font-style: normal;
+  font-weight: 500;
+  margin: 0 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-regular {
+  font-style: normal;
+  font-weight: 300;
+  margin: 0 12px;
+  text-decoration: none;
+}
+
+/* Content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* margins */
+.margin-footer {
+  margin-top: 64px;
+}
+
+.margin-32 {
+  margin-bottom: 32px;
+}
+.margin-16 {
+  margin-bottom: 16px;
+}
+.margin-64 {
+  margin-bottom: 64px;
+}
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 10px 10px;
+  border-radius: 0px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-cta {
+  color: #fff;
+  background-color: #111111;
+  padding: 14px 32px;
+}
+
+.btn-header {
+  color: #fff;
+  background-color: #111111;
+  padding: 10px 16px;
+}
+
+/* Images */
+img {
+  display: block;
+  width: 100%;
+}
