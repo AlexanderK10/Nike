@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
 }
 
 /* margins&paddings */
@@ -29,10 +28,10 @@ body {
 }
 .margin-64 {
   margin-bottom: 64px;
-} 
+}
 .margin-8 {
   margin-bottom: 8px;
-} 
+}
 
 .paddind-32 {
   padding: 32px 32px;
@@ -76,8 +75,7 @@ p {
   color: #fafafa;
 }
 
-
- /*Colors*/
+/*Colors*/
 .white {
   color: #fafafa;
 }
